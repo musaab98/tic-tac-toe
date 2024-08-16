@@ -51,11 +51,7 @@ function App() {
   const handleNewGame = async () => {
     try {
       const response = await axios.post('http://localhost:5001/api/reset');
-      setBoard([
-        ['', '', ''],
-        ['', '', ''],
-        ['', '', ''],
-      ]);
+      setBoard([['', '', ''], ['', '', ''], ['', '', ''],]);
       setCurrentPlayer('X');
       setWinner(null);
     } catch (err) {
