@@ -1,0 +1,31 @@
+.App {
+    text-align: center;
+  }
+  
+  .board {
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  .row {
+    display: flex;
+  }
+
+  .winner {
+    color: #7318a4;
+  }
+  
+  .cell {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    line-height: 50px;
+    border: 1px solid #000;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .cell:hover {
+    background-color: #ddd;
+  }
